@@ -1,6 +1,5 @@
 # Hacktoberfest-2020
 
-# Hacktoberfest 2020
 
 ![Author](https://img.shields.io/badge/author-HrithikSahu-orange)
 ![Issues](https://img.shields.io/github/issues/HrithikSahu/Hacktoberfest-2020)
@@ -26,7 +25,7 @@ It is pretty easy to do the aforementioned, hover over to the top right corner o
 ### 1. Clone this repository.
 You first need to create a local copy of this repository after you have forked it to be able to contribute to the same. Copy the following command and paste it in your terminal.
 
-`git clone https://github.com/username/Hacktoberfest-2020.git`
+`git clone https://github.com/HrithikSahu/Hacktoberfest-2020.git`
 
 Please ensure that you add YOUR username in the command and do this after Forking the Repository.
 
@@ -67,7 +66,7 @@ Note that it is mandatory for you to add a Commit Message for others to understa
 
 While you are at it, also execute the following command which will specify a new remote upstream repository (the cone you are looking at).
 
-`git remote add upstream https://github.com/aaishikasb/Hacktoberfest-2020.git`
+`git remote add upstream https://github.com/HrithikSahu/Hacktoberfest-2020.git`
 
 ### 6. Keep your Repository in Sync
 You need to use the following commands to help you sync all the branches with their respective commits associated with this repository and stay in loop. Copy these commands and execute:
@@ -108,6 +107,6 @@ Some important commands that you are going to need are listed below:
 Please add your name in the list in the following format:
 
 ` - Name - [File Name](File Address)`
-- [Aaishika S Bhattacharya](https://www.github.com/aaishikasb) - [README](README.md)
+- [Hrithik Sahu](https://www.github.com/HrithikSahu) - [README](README.md)
 
 Please do not spam the repository with unnecessary Pull Requests. Happy Hacking!
