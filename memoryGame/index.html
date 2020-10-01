@@ -1,0 +1,249 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="restart">
+        <div class="restart-button">
+            <div class="text">
+                RESTART
+            </div>
+        </div>
+    </div>
+
+    <div class="moves">
+        <p id="limit">Moves Left: <span id="number">80</span> </p>
+    </div>
+
+    <div class="rating">
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
+
+    <div class="grid-container" id="container">
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/batman-1.png" alt="" height="100px" width="120px" id="bat1">
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/blackpanther.png" alt="" height="100px" width="120px" id="panther1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/blackwidow.jpg" alt="" height="100px" width="120px" id="bw1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/hulk.png" alt="" height="100px" width="120px" id="hulk1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/deadpool.png" alt="" height="100px" width="120px" id="dp1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/thor.png" alt="" height="100px" width="120px" id="thor1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/ironman.png" alt="" height="100px" width="120px" id="ironman1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/antman.png" alt="" height="100px" width="120px" id="antman1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/blackpanther.png" alt="" height="100px" width="120px" id="panther2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/wolverine.jpg" alt="" height="100px" width="120px" id="wolverine1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/blackwidow.jpg" alt="" height="100px" width="120px" id="bw2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/wolverine.jpg" alt="" height="100px" width="120px" id="wolverine2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/ironman.png" alt="" height="100px" width="120px" id="ironman2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/spider-man.webp" alt="" height="100px" width="120px" id="spidy1">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/thor.png" alt="" height="100px" width="120px" id="thor2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/deadpool.png" alt="" height="100px" width="120px" id="dp2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/batman-1.png" alt="" height="100px" width="120px" id="bat2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/spider-man.webp" alt="" height="100px" width="120px" id="spidy2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/antman.png" alt="" height="100px" width="120px" id="antman2">
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/marvel2.jpg" alt="" height="100px" width="120px">
+                </div>
+                <div class="flip-card-back">
+                    <img src="images/hulk.png" alt="" height="100px" width="120px" id="hulk2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uwin">
+        <pre>Yeah!!!!!</pre>
+        <pre>You did it.</pre>
+    </div>
+
+    <div class="outofmoves">
+        <pre>OOP's!!!!!</pre>
+        <pre>You ran out of moves</pre>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="memoryGame.js"></script>
+</body>
+
+</html>
