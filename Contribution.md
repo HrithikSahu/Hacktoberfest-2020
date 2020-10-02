@@ -19,3 +19,4 @@
 # Contributors
 
 1. Name - Santanu Biswas   Github link - <a href=https://github.com/SantanuxD>https://github.com/SantanuxD</a>
+2. Name - Tripti D Rao   Github link - <a href=https://github.com/SantanuxD>https://github.com/Tripti19-Rao</a>
