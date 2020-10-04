@@ -145,5 +145,6 @@ Please add your name in the list in the following format:
 
 ` - [Name](github link to profile) - [File Name](File Address)`
 - [Hrithik Sahu](https://www.github.com/HrithikSahu) - [README](README.md)
+- [Samrat Neupane](https://www.github.com/h3cksamrat) - [README](README.md) - [CONTRIBUTING](CONTRIBUTING.md) - [infixtopostfix](infixtopostfix/)
 
 *Please do not spam the repository with unnecessary Pull Requests. Happy Hacking!
