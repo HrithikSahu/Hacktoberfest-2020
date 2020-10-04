@@ -25,25 +25,33 @@ It is pretty easy to do the aforementioned, hover over to the top right corner o
 ### 1. Clone this repository.
 You first need to create a local copy of this repository after you have forked it to be able to contribute to the same. Copy the following command and paste it in your terminal.
 
-`git clone https://github.com/HrithikSahu/Hacktoberfest-2020.git`
+```git
+git clone https://github.com/HrithikSahu/Hacktoberfest-2020.git
+```
 
 Please ensure that you add YOUR username in the command and do this after Forking the Repository.
 
 ### 2. Create a New Branch
 After successfully cloning the repository, you need to now create a separate branch for yourself to not disturb the workflow of the repository. If you aren't already inside the main folder copy this command in terminal and press enter.
 
-`cd Hacktoberfest-2020`
+```bash
+cd Hacktoberfest-2020
+```
 
 Now that you are inside the main folder, use this command to create a new branch for yourself.
 
-`git branch (name of your branch)`
+```git
+git branch (name of your branch)
+```
 
 Please ensure that the name of your branch is your username.
 
 ### 3. Switch to your New Branch
 To start working and to push code from your own branch, please execute the following command in the Terminal.
 
-`git checkout (name of your branch)`
+```git
+git checkout (name of your branch)
+```
 
 You should receive a notification which will state that you have switched to your newly created branch.
 
@@ -54,30 +62,42 @@ While you are at it, ensure that you add something useful and not just add your 
 ### 5. Sync all Updates
 The part you have been waiting for. If you are sure that you are following the guidelines that you can find [here](https://hacktoberfest.digitalocean.com/details), proceed further and execute the following command in your terminal.
 
-`git add .`
+```git
+git add .
+```
 
 This will add all the files in your local repository. After this execute
 
-`git commit -m "ADD YOUR MESSAGE HERE (PREFERABLY THE NAME OF YOUR PROJECT)"`
+```git
+git commit -m "ADD YOUR MESSAGE HERE (PREFERABLY THE NAME OF YOUR PROJECT)"
+```
 
 Note that it is mandatory for you to add a Commit Message for others to understand what you are trying to add here. Now finally to push updates to the new branch, execute the following:
 
-`git push --set-upstream origin (name of your branch)`
+```git
+git push --set-upstream origin (name of your branch)
+```
 
 While you are at it, also execute the following command which will specify a new remote upstream repository (the cone you are looking at).
 
-`git remote add upstream https://github.com/HrithikSahu/Hacktoberfest-2020.git`
+```git
+git remote add upstream https://github.com/HrithikSahu/Hacktoberfest-2020.git
+```
 
 ### 6. Keep your Repository in Sync
 You need to use the following commands to help you sync all the branches with their respective commits associated with this repository and stay in loop. Copy these commands and execute:
 
-`git fetch upstream`
+```git
+git fetch upstream
 
-`git checkout master`
+git checkout master
+```
 
 Post this you simply need to merge all the changes you made.
 
-`git merge upstream/master`
+```git
+git merge upstream/master
+```
 
 6. Create a Pull Request (The Part you have been waiting for)
 Now that you are done with the most complex parts of the process, you can just go to your forked repository and Click on **New Pull Request** towards the left hand side of the page and You're Done!
@@ -86,16 +106,33 @@ Congratulations on successfully creating a Pull Request there!
 ## What are the most important Git Commands that I am going to need?
 Some important commands that you are going to need are listed below:
 
-- `git checkout "(name of your branch)"`
-- `git checkout dev`
-- `git pull` (Really !Important to merge updates)
-- `git rebase dev`
+```git 
+git checkout "(name of your branch)"
+```
+```git 
+git checkout dev
+```
+```git 
+git pull
+``` 
+(Really !Important to merge updates)
+
+```git 
+git rebase dev
+```
 
 **The most important commands now are as below:**
 
-- `git add .` or `git add -A`
-- `git commit -m "MESSAGE"`
-- `git push origin (name of your branch)`
+```git 
+git add .
+  or
+git add -A
+``` 
+
+```git 
+git commit -m "MESSAGE"
+git push origin (name of your branch)
+```
 
 ## Guidelines
 ### (Insert a Joe Biden Meme)
@@ -106,7 +143,7 @@ Some important commands that you are going to need are listed below:
 ## Contributors
 Please add your name in the list in the following format:
 
-` - Name - [File Name](File Address)`
+` - [Name](github link to profile) - [File Name](File Address)`
 - [Hrithik Sahu](https://www.github.com/HrithikSahu) - [README](README.md)
 
-Please do not spam the repository with unnecessary Pull Requests. Happy Hacking!
+*Please do not spam the repository with unnecessary Pull Requests. Happy Hacking!
