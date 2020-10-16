@@ -108,5 +108,6 @@ Please add your name in the list in the following format:
 
 ` - Name - [File Name](File Address)`
 - [Hrithik Sahu](https://www.github.com/HrithikSahu) - [README](README.md)
+- [Piyush Pareek](https://github.com/PiyushPareek7221) - [README](2D-Game-with-html-css-js)
 
 Please do not spam the repository with unnecessary Pull Requests. Happy Hacking!
