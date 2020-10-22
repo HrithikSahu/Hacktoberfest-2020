@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,a[3][3],max,min;
+	printf("write the element of matrix\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			scanf("%d",&a[i][j]);
+		}
+	}
+
+	min=a[2][1];
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]<min)
+				min=a[i][j];
+		}
+	}
+
+	max=a[2][1];
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]>max)
+				max=a[i][j];
+		}
+	}
+
+	printf("sum of min and max is:  %d",min+max);
+
+	return 0;
+
+}
+
