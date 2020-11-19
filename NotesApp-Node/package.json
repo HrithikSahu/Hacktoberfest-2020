@@ -1,0 +1,21 @@
+{
+    "name": "notesapp",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "MIT",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error no tests specified\" && exit 1"
+    },
+    "dependencies": {
+        "audio-loader": "^1.0.3",
+        "audio-play": "^2.2.1",
+        "chalk": "^4.1.0",
+        "nodemon": "^2.0.4",
+        "play-sound": "^1.1.3",
+        "sound-play": "^1.0.5",
+        "validator": "^13.1.1",
+        "yargs": "^15.4.1"
+    }
+}
