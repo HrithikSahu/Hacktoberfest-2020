@@ -19,3 +19,5 @@
 # Contributors
 
 1. Name - Santanu Biswas   Github link - <a href=https://github.com/SantanuxD>https://github.com/SantanuxD</a>
+
+2. Name - Deepak Singh Githun link- <a href= https://github.com/Deepaksingh-Rathour> https://github.com/Deepaksingh-Rathour</a>
