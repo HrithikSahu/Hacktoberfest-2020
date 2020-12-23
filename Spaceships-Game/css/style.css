@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background-image: url('../images/body_background.jpg');
+}
+
+canvas {
+  border-radius: 10px;
+}
+
+.info {
+  font-size: 50px;
+  width: 900px;
+  margin: auto;
+  font-family: 'VT323', monospace;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  width: 400px;
+  display: flex;
+  justify-content: inherit;
+}
